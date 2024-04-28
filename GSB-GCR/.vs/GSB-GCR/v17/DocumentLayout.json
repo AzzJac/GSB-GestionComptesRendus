@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jacques\\Documents\\SN2\\ContexteGSB-V1.2\\PPE\\03-Gestion Compte Rendus\\GSB-GCR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74CC6CBA-C8EF-4A12-BE26-266CBAB64B9B}|GSB-GCR.csproj|c:\\users\\jacques\\documents\\sn2\\contextegsb-v1.2\\ppe\\03-gestion compte rendus\\gsb-gcr\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74CC6CBA-C8EF-4A12-BE26-266CBAB64B9B}|GSB-GCR.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74CC6CBA-C8EF-4A12-BE26-266CBAB64B9B}|GSB-GCR.csproj|c:\\users\\jacques\\documents\\sn2\\contextegsb-v1.2\\ppe\\03-gestion compte rendus\\gsb-gcr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74CC6CBA-C8EF-4A12-BE26-266CBAB64B9B}|GSB-GCR.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74CC6CBA-C8EF-4A12-BE26-266CBAB64B9B}|GSB-GCR.csproj|c:\\users\\jacques\\documents\\sn2\\contextegsb-v1.2\\ppe\\03-gestion compte rendus\\gsb-gcr\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{74CC6CBA-C8EF-4A12-BE26-266CBAB64B9B}|GSB-GCR.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74CC6CBA-C8EF-4A12-BE26-266CBAB64B9B}|GSB-GCR.csproj|c:\\users\\jacques\\documents\\sn2\\contextegsb-v1.2\\ppe\\03-gestion compte rendus\\gsb-gcr\\models\\gsbcrcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74CC6CBA-C8EF-4A12-BE26-266CBAB64B9B}|GSB-GCR.csproj|solutionrelative:models\\gsbcrcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jacques\\Documents\\SN2\\ContexteGSB-V1.2\\PPE\\03-Gestion Compte Rendus\\GSB-GCR\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jacques\\Documents\\SN2\\ContexteGSB-V1.2\\PPE\\03-Gestion Compte Rendus\\GSB-GCR\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T21:49:26.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jacques\\Documents\\SN2\\ContexteGSB-V1.2\\PPE\\03-Gestion Compte Rendus\\GSB-GCR\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\jacques\\Documents\\SN2\\ContexteGSB-V1.2\\PPE\\03-Gestion Compte Rendus\\GSB-GCR\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T19:44:12.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jacques\\Documents\\SN2\\ContexteGSB-V1.2\\PPE\\03-Gestion Compte Rendus\\GSB-GCR\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\jacques\\Documents\\SN2\\ContexteGSB-V1.2\\PPE\\03-Gestion Compte Rendus\\GSB-GCR\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-26T07:20:40.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GSBCRContext.cs",
+              "DocumentMoniker": "C:\\Users\\jacques\\Documents\\SN2\\ContexteGSB-V1.2\\PPE\\03-Gestion Compte Rendus\\GSB-GCR\\Models\\GSBCRContext.cs",
+              "RelativeDocumentMoniker": "Models\\GSBCRContext.cs",
+              "ToolTip": "C:\\Users\\jacques\\Documents\\SN2\\ContexteGSB-V1.2\\PPE\\03-Gestion Compte Rendus\\GSB-GCR\\Models\\GSBCRContext.cs",
+              "RelativeToolTip": "Models\\GSBCRContext.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAkwC8AAACEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T07:09:11.234Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

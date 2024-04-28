@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GSB-GCR.props" />
+</Project>

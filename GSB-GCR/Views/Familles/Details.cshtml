@@ -1,0 +1,85 @@
+﻿@model GSB_GCR.Models.Famille
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Famille</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FamLibelle)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Medicaments)
+        </dd>
+    </dl>
+</div>
+<p>Liste des medicaments</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.Label("Nom")
+            </th>
+            <th>
+                @Html.Label("Composition")
+            </th>
+            <th>
+                @Html.Label("Effets secondaires")
+            </th>
+            <th>
+                @Html.Label("Contre indication")
+            </th>
+            <th>
+                @Html.Label("Prix")
+            </th>
+            @* <th>
+            @Html.DisplayNameFor(model => model.SsmaTimeStamp)
+            </th> *@
+            <th>
+                @Html.Label("Famille")
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Medicaments)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MedNomcommercial)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MedComposition)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MedEffets)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MedContreindic)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MedPrixechantillon)
+                </td>
+                @* <td>
+            @Html.DisplayFor(modelItem => item.SsmaTimeStamp)
+            </td> *@
+                <td>
+                    @Html.DisplayFor(modelItem => item.FamCodeNavigation.FamLibelle)
+                </td>
+                
+                    
+                
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.FamCode">Modifier</a>
+    <a asp-action="Index"> back to list</a>
+</div>
