@@ -284,3 +284,4 @@ C:\Users\jacques\Documents\SN2\ContexteGSB-V1.2\PPE\03-Gestion Compte Rendus\GSB
 C:\Users\jacques\Documents\SN2\ContexteGSB-V1.2\PPE\03-Gestion Compte Rendus\GSB-GCR\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\jacques\Documents\SN2\ContexteGSB-V1.2\PPE\03-Gestion Compte Rendus\GSB-GCR\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\jacques\Documents\SN2\ContexteGSB-V1.2\PPE\03-Gestion Compte Rendus\GSB-GCR\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\jacques\Documents\SN2\ContexteGSB-V1.2\PPE\03-Gestion Compte Rendus\GSB-GCR\obj\Debug\net6.0\GSB-GCR.sourcelink.json
