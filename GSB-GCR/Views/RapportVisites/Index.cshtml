@@ -4,28 +4,28 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Liste des comptes rendus</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" type="button" class="btn btn-primary">Nouveau compte rendu</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.RapDate)
+                @Html.Label("Date")
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.RapBilan)
+                @Html.Label("Bilan")
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.RapMotif)
+                @Html.Label("Motif")
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.PraNumNavigation)
+                @Html.Label("Nom praticien")
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.VisMatriculeNavigation)
+                 @Html.Label("Nom visiteur")
             </th>
             <th></th>
         </tr>
@@ -49,9 +49,8 @@
                 @Html.DisplayFor(modelItem => item.VisMatriculeNavigation.VisNom)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { id=item.RapNum })
+                    <a asp-action="Details" asp-route-id="@item.VisMatricule">Détails</a> |
+                    <a asp-action="Delete" asp-route-id="@item.VisMatricule">Supprimer</a>
             </td>
         </tr>
 }

@@ -4,63 +4,62 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>Détails</h1>
 
 <div>
     <h4>Visiteur</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.VisNom)
+            @Html.Label("Nom")
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.VisNom)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.VisPrenom)
+            @Html.Label("Prenom")
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.VisPrenom)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.VisAdresse)
+            @Html.Label("Adresse")
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.VisAdresse)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.VisCp)
+            @Html.Label("Code postal")
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.VisCp)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.VisVille)
+            @Html.Label("Ville")
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.VisVille)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.VisDateembauche)
+            @Html.Label("Date embauche")
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.VisDateembauche)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.LabCodeNavigation)
+            @Html.Label("laboratoire")
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.LabCodeNavigation.LabCode)
+            @Html.DisplayFor(model => model.LabCodeNavigation.LabNom)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.SecCodeNavigation)
+            @Html.Label("Section")
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.SecCodeNavigation.SecCode)
+            @Html.DisplayFor(model => model.SecCodeNavigation.SecLibelle)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.VisMatricule">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index" class="btn btn-primary">Revenir à la liste</a>
 </div>

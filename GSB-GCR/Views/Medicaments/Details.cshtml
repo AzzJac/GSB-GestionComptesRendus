@@ -4,50 +4,50 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>Détails</h1>
 
 <div>
-    <h4>Medicament</h4>
+    <h4>Médicament</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.MedNomcommercial)
+            @Html.Label("Nom")
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.MedNomcommercial)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.MedComposition)
+            @Html.Label("Composition")
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.MedComposition)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.MedEffets)
+            @Html.Label("Effets secondaires")
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.MedEffets)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.MedContreindic)
+            @Html.Label("Contre indication")
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.MedContreindic)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.MedPrixechantillon)
+            @Html.Label("Prix")
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.MedPrixechantillon)
         </dd>
-        <dt class = "col-sm-2">
+        @* <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.SsmaTimeStamp)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.SsmaTimeStamp)
-        </dd>
+        </dd> *@
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.FamCodeNavigation)
+            @Html.Label("Famille")
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.FamCodeNavigation.FamCode)
@@ -55,6 +55,5 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.MedDepotlegal">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index" class="btn btn-primary">Revenir à la liste</a>
 </div>

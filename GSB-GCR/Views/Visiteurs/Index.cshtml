@@ -4,37 +4,37 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Liste des visiteurs</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" type="button" class="btn btn-primary">Nouveau visiteur</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.VisNom)
+                @Html.Label("Nom")
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.VisPrenom)
+                @Html.Label("Prenom")
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.VisAdresse)
+                @Html.Label("Adresse")
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.VisCp)
+                @Html.Label("Code postal")
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.VisVille)
+                @Html.Label("Ville")
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.VisDateembauche)
+                @Html.Label("Date embauche")
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.LabCodeNavigation)
+                @Html.Label("Laboratoire")
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.SecCodeNavigation)
+                @Html.Label("Section")
             </th>
             <th></th>
         </tr>
@@ -64,12 +64,12 @@
                     @Html.DisplayFor(modelItem => item.LabCodeNavigation.LabNom)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.SecCodeNavigation.SecCode)
+                    @Html.DisplayFor(modelItem => item.SecCodeNavigation.SecLibelle)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.VisMatricule">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.VisMatricule">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.VisMatricule">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.VisMatricule">Modifier</a> |
+                    <a asp-action="Details" asp-route-id="@item.VisMatricule">Détails</a> |
+                <a asp-action="Delete" asp-route-id="@item.VisMatricule">Supprimer</a>
             </td>
         </tr>
 }

@@ -49,7 +49,7 @@ namespace GSB_GCR.Controllers
         // GET: Praticiens/Create
         public IActionResult Create()
         {
-            ViewData["TypCode"] = new SelectList(_context.TypePraticiens, "TypCode", "TypCode");
+            ViewData["TypCode"] = new SelectList(_context.TypePraticiens, "TypCode", "TypLibelle");
             return View();
         }
 
@@ -66,7 +66,7 @@ namespace GSB_GCR.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["TypCode"] = new SelectList(_context.TypePraticiens, "TypCode", "TypCode", praticien.TypCode);
+            ViewData["TypCode"] = new SelectList(_context.TypePraticiens, "TypCode", "TypLibelle", praticien.TypCode);
             return View(praticien);
         }
 
@@ -83,7 +83,7 @@ namespace GSB_GCR.Controllers
             {
                 return NotFound();
             }
-            ViewData["TypCode"] = new SelectList(_context.TypePraticiens, "TypCode", "TypCode", praticien.TypCode);
+            ViewData["TypCode"] = new SelectList(_context.TypePraticiens, "TypCode", "TypLibelle", praticien.TypCode);
             return View(praticien);
         }
 
@@ -119,7 +119,7 @@ namespace GSB_GCR.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["TypCode"] = new SelectList(_context.TypePraticiens, "TypCode", "TypCode", praticien.TypCode);
+            ViewData["TypCode"] = new SelectList(_context.TypePraticiens, "TypCode", "TypLibelle", praticien.TypCode);
             return View(praticien);
         }
 

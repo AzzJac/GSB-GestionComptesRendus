@@ -4,7 +4,7 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<h1>Modifier</h1>
 
 <h4>RapportVisite</h4>
 <hr />
@@ -15,34 +15,34 @@
             <input type="hidden" asp-for="VisMatricule" />
             <input type="hidden" asp-for="RapNum" />
             <div class="form-group">
-                <label asp-for="PraNum" class="control-label"></label>
+                <label asp-for="PraNum" class="control-label">Nom praticien</label>
                 <select asp-for="PraNum" class="form-control" asp-items="ViewBag.PraNum"></select>
                 <span asp-validation-for="PraNum" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="RapDate" class="control-label"></label>
+                <label asp-for="RapDate" class="control-label">Date</label>
                 <input asp-for="RapDate" class="form-control" />
                 <span asp-validation-for="RapDate" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="RapBilan" class="control-label"></label>
+                <label asp-for="RapBilan" class="control-label">Bilan</label>
                 <input asp-for="RapBilan" class="form-control" />
                 <span asp-validation-for="RapBilan" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="RapMotif" class="control-label"></label>
+                <label asp-for="RapMotif" class="control-label">Motif</label>
                 <input asp-for="RapMotif" class="form-control" />
                 <span asp-validation-for="RapMotif" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Sauvegarder" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
-
+</br>
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index" class="btn btn-primary">Revenir à la liste</a>
 </div>
 
 @section Scripts {

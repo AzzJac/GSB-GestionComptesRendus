@@ -68,8 +68,8 @@ namespace GSB_GCR.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["LabCode"] = new SelectList(_context.Labos, "LabCode", "LabCode", visiteur.LabCode);
-            ViewData["SecCode"] = new SelectList(_context.Secteurs, "SecCode", "SecCode", visiteur.SecCode);
+            ViewData["LabCode"] = new SelectList(_context.Labos, "LabCode", "LabNom", visiteur.LabCode);
+            ViewData["SecCode"] = new SelectList(_context.Secteurs, "SecCode", "SecLibelle", visiteur.SecCode);
             return View(visiteur);
         }
 
@@ -86,8 +86,8 @@ namespace GSB_GCR.Controllers
             {
                 return NotFound();
             }
-            ViewData["LabCode"] = new SelectList(_context.Labos, "LabCode", "LabCode", visiteur.LabCode);
-            ViewData["SecCode"] = new SelectList(_context.Secteurs, "SecCode", "SecCode", visiteur.SecCode);
+            ViewData["LabCode"] = new SelectList(_context.Labos, "LabCode", "LabNom", visiteur.LabCode);
+            ViewData["SecCode"] = new SelectList(_context.Secteurs, "SecCode", "SecLibelle", visiteur.SecCode);
             return View(visiteur);
         }
 
@@ -123,8 +123,8 @@ namespace GSB_GCR.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["LabCode"] = new SelectList(_context.Labos, "LabCode", "LabCode", visiteur.LabCode);
-            ViewData["SecCode"] = new SelectList(_context.Secteurs, "SecCode", "SecCode", visiteur.SecCode);
+            ViewData["LabCode"] = new SelectList(_context.Labos, "LabCode", "LabNom", visiteur.LabCode);
+            ViewData["SecCode"] = new SelectList(_context.Secteurs, "SecCode", "SecLibelle", visiteur.SecCode);
             return View(visiteur);
         }
 

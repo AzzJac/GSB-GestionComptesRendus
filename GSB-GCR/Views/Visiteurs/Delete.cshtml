@@ -4,66 +4,66 @@
     ViewData["Title"] = "Delete";
 }
 
-<h1>Delete</h1>
+<h1>Supprimer</h1>
 
-<h3>Are you sure you want to delete this?</h3>
+<h3>Êtes-vous sûr de supprimer ceci ?</h3>
 <div>
     <h4>Visiteur</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.VisNom)
+            @Html.Label("Nom")
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.VisNom)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.VisPrenom)
+            @Html.Label("Prenom")
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.VisPrenom)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.VisAdresse)
+            @Html.Label("Adresse")
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.VisAdresse)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.VisCp)
+            @Html.Label("Code postal")
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.VisCp)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.VisVille)
+            @Html.Label("Ville")
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.VisVille)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.VisDateembauche)
+            @Html.Label("Date embauche")
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.VisDateembauche)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.LabCodeNavigation)
+            @Html.Label("Laboratoire")
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.LabCodeNavigation.LabCode)
+            @Html.DisplayFor(model => model.LabCodeNavigation.LabNom)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.SecCodeNavigation)
+            @Html.Label("Section")
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.SecCodeNavigation.SecCode)
+            @Html.DisplayFor(model => model.SecCodeNavigation.SecLibelle)
         </dd>
     </dl>
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="VisMatricule" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <input type="submit" value="Supprimer" class="btn btn-danger" /> |
+        <a asp-action="Index" class="btn btn-primary">Revenir à la liste</a>
     </form>
 </div>

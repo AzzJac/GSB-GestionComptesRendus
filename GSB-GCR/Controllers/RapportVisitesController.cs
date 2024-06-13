@@ -66,8 +66,8 @@ namespace GSB_GCR.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["PraNum"] = new SelectList(_context.Praticiens, "PraNum", "PraNum", rapportVisite.PraNum);
-            ViewData["VisMatricule"] = new SelectList(_context.Visiteurs, "VisMatricule", "VisMatricule", rapportVisite.VisMatricule);
+            ViewData["PraNum"] = new SelectList(_context.Praticiens, "PraNum", "PraNom", rapportVisite.PraNum);
+            ViewData["VisMatricule"] = new SelectList(_context.Visiteurs, "VisMatricule", "VisNom", rapportVisite.VisMatricule);
             return View(rapportVisite);
         }
 
@@ -84,8 +84,8 @@ namespace GSB_GCR.Controllers
             {
                 return NotFound();
             }
-            ViewData["PraNum"] = new SelectList(_context.Praticiens, "PraNum", "PraNum", rapportVisite.PraNum);
-            ViewData["VisMatricule"] = new SelectList(_context.Visiteurs, "VisMatricule", "VisMatricule", rapportVisite.VisMatricule);
+            ViewData["PraNum"] = new SelectList(_context.Praticiens, "PraNum", "PraNom", rapportVisite.PraNum);
+            ViewData["VisMatricule"] = new SelectList(_context.Visiteurs, "VisMatricule", "VisNom", rapportVisite.VisMatricule);
             return View(rapportVisite);
         }
 
@@ -121,8 +121,8 @@ namespace GSB_GCR.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["PraNum"] = new SelectList(_context.Praticiens, "PraNum", "PraNum", rapportVisite.PraNum);
-            ViewData["VisMatricule"] = new SelectList(_context.Visiteurs, "VisMatricule", "VisMatricule", rapportVisite.VisMatricule);
+            ViewData["PraNum"] = new SelectList(_context.Praticiens, "PraNum", "PraNom", rapportVisite.PraNum);
+            ViewData["VisMatricule"] = new SelectList(_context.Visiteurs, "VisMatricule", "VisNom", rapportVisite.VisMatricule);
             return View(rapportVisite);
         }
 
