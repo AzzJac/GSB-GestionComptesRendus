@@ -138,8 +138,7 @@
               "RelativeToolTip": "Views\\Visiteurs\\Delete.cshtml",
               "ViewState": "AQIAACoAAAAAAAAAAAAAADgAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T18:34:39.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T18:34:39.36Z"
             },
             {
               "$type": "Document",
@@ -151,8 +150,7 @@
               "RelativeToolTip": "Views\\Praticiens\\Delete.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T18:33:22.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T18:33:22.876Z"
             },
             {
               "$type": "Document",
@@ -164,8 +162,7 @@
               "RelativeToolTip": "Views\\Visiteurs\\Details.cshtml",
               "ViewState": "AQIAACoAAAAAAAAAAAAAADcAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T18:34:45.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T18:34:45.411Z"
             },
             {
               "$type": "Document",
@@ -177,8 +174,7 @@
               "RelativeToolTip": "Views\\Visiteurs\\Edit.cshtml",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAADAAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T18:34:53.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T18:34:53.006Z"
             },
             {
               "$type": "Document",
@@ -203,8 +199,7 @@
               "RelativeToolTip": "Controllers\\VisiteursController.cs",
               "ViewState": "AQIAACwAAAAAAAAAAAAgwDQAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T19:53:57.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T19:53:57.503Z"
             },
             {
               "$type": "Document",
@@ -216,8 +211,7 @@
               "RelativeToolTip": "Views\\Praticiens\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T17:52:40.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T17:52:40.487Z"
             },
             {
               "$type": "Document",
@@ -229,8 +223,7 @@
               "RelativeToolTip": "Views\\RapportVisites\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T17:53:12.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T17:53:12.693Z"
             },
             {
               "$type": "Document",
@@ -242,8 +235,7 @@
               "RelativeToolTip": "Views\\Praticiens\\Create.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T19:09:53.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T19:09:53.457Z"
             },
             {
               "$type": "Document",
@@ -255,8 +247,7 @@
               "RelativeToolTip": "Views\\Visiteurs\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T18:34:33.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T18:34:33.145Z"
             },
             {
               "$type": "Document",
@@ -268,8 +259,7 @@
               "RelativeToolTip": "Views\\Medicaments\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T18:50:33.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T18:50:33.785Z"
             },
             {
               "$type": "Document",
@@ -281,8 +271,7 @@
               "RelativeToolTip": "Views\\Familles\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T19:07:07.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T19:07:07.366Z"
             },
             {
               "$type": "Document",
@@ -294,8 +283,7 @@
               "RelativeToolTip": "Views\\RapportVisites\\Delete.cshtml",
               "ViewState": "AQIAABgAAAAAAAAAAAAAACYAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T18:33:53.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T18:33:53.302Z"
             },
             {
               "$type": "Document",
@@ -307,8 +295,7 @@
               "RelativeToolTip": "Views\\Medicaments\\Index.cshtml",
               "ViewState": "AQIAABsAAAAAAAAAAAAAACMAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T18:28:45.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T18:28:45.239Z"
             },
             {
               "$type": "Document",
@@ -320,8 +307,7 @@
               "RelativeToolTip": "Views\\RapportVisites\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T18:33:48.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T18:33:48.755Z"
             },
             {
               "$type": "Document",
@@ -333,8 +319,7 @@
               "RelativeToolTip": "Views\\RapportVisites\\Edit.cshtml",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T18:34:24.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T18:34:24.302Z"
             },
             {
               "$type": "Document",
@@ -346,8 +331,7 @@
               "RelativeToolTip": "Views\\RapportVisites\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T18:33:57.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T18:33:57.988Z"
             },
             {
               "$type": "Document",
@@ -359,8 +343,7 @@
               "RelativeToolTip": "Views\\Medicaments\\Delete.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T18:32:58.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T18:32:58.423Z"
             },
             {
               "$type": "Document",
@@ -372,8 +355,7 @@
               "RelativeToolTip": "Views\\Praticiens\\Details.cshtml",
               "ViewState": "AQIAACcAAAAAAAAAAAAAADcAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T18:33:32.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T18:33:32.835Z"
             },
             {
               "$type": "Document",
@@ -385,8 +367,7 @@
               "RelativeToolTip": "Views\\Praticiens\\Edit.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAC4AAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T18:33:38.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T18:33:38.409Z"
             },
             {
               "$type": "Document",
@@ -398,8 +379,7 @@
               "RelativeToolTip": "Views\\Familles\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T19:07:31.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T19:07:31.69Z"
             },
             {
               "$type": "Document",
@@ -411,8 +391,7 @@
               "RelativeToolTip": "Views\\Familles\\Index.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T18:24:28.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T18:24:28.396Z"
             },
             {
               "$type": "Document",
@@ -424,8 +403,7 @@
               "RelativeToolTip": "Views\\Familles\\Edit.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T19:07:39.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T19:07:39.411Z"
             },
             {
               "$type": "Document",
@@ -437,8 +415,7 @@
               "RelativeToolTip": "Controllers\\PraticiensController.cs",
               "ViewState": "AQIAAGcAAAAAAAAAAAAwwHkAAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T19:48:33.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T19:48:33.91Z"
             },
             {
               "$type": "Document",
@@ -450,8 +427,7 @@
               "RelativeToolTip": "Views\\Medicaments\\Edit.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAUwAgAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T18:33:09.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T18:33:09.863Z"
             },
             {
               "$type": "Document",
@@ -463,8 +439,7 @@
               "RelativeToolTip": "Views\\Medicaments\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T18:33:05.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T18:33:05.018Z"
             },
             {
               "$type": "Document",
@@ -476,8 +451,7 @@
               "RelativeToolTip": "Views\\Shared\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T19:22:25.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T19:22:25.269Z"
             },
             {
               "$type": "Document",
@@ -489,8 +463,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAACEAAAAAAAAAAAAAACQAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T18:24:57.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T18:24:57.032Z"
             },
             {
               "$type": "Document",
@@ -502,8 +475,7 @@
               "RelativeToolTip": "Views\\Familles\\Delete.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T19:07:16.754Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T19:07:16.754Z"
             }
           ]
         }

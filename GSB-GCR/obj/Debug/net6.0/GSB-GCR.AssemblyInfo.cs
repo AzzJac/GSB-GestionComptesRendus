@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GSB-GCR")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7aab04f3e1c41616da08da50db500c98eaa76f60")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38adc0b74cbc426ead25644f004d3afaa0068126")]
 [assembly: System.Reflection.AssemblyProductAttribute("GSB-GCR")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GSB-GCR")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
