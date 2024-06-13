@@ -277,3 +277,4 @@ C:\Users\jacques\Documents\SN2\ContexteGSB-V1.2\PPE\03-ServiceWeb\GSB-2024\GSB-J
 C:\Users\jacques\Documents\SN2\ContexteGSB-V1.2\PPE\03-ServiceWeb\GSB-2024\GSB-JacquesB\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\jacques\Documents\SN2\ContexteGSB-V1.2\PPE\03-ServiceWeb\GSB-2024\GSB-JacquesB\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\jacques\Documents\SN2\ContexteGSB-V1.2\PPE\03-ServiceWeb\GSB-2024\GSB-JacquesB\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\jacques\Documents\SN2\ContexteGSB-V1.2\PPE\03-ServiceWeb\GSB-2024\GSB-JacquesB\obj\Debug\net6.0\GSB-JacquesB.sourcelink.json
